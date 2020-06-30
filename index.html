@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customable Day Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="input_area">
+            <div class="input_first">
+
+                <input type="text" class="day" placeholder="Day">
+                <select class="month" Name="Month">
+                    <option value="Month">Month</option>
+                    <option value="Jan">Jan</option>
+                    <option value="Feb">Feb</option>
+                    <option value="Mar">Mar</option>
+                    <option value="apr">apr</option>
+                    <option value="May">May</option>
+                    <option value="Jun">Jun</option>
+                    <option value="Jul">Jul</option>
+                    <option value="Aug">Aug</option>
+                    <option value="Sep">Sep</option>
+                    <option value="Oct">Oct</option>
+                    <option value="Nov">Nov</option>
+                    <option value="Dec">Dec</option>
+                    
+               </select>
+                <input type="text" class="year" placeholder=" Year ">
+            </div>
+            <div class="input_last">
+                <input type="text" placeholder="Hour" class="hour">
+                <input type="text" placeholder="Minute" class="minute">
+                <select name="" class="am_pm">
+                     <option value="AM">AM</option>
+                     <option value="PM">PM</option>
+                </select>
+            </div>
+            <input type="submit" value="Press OK" class="submit">
+        </div>
+        <div class="show_area ">
+            <div class="display">
+                <h1> 000 : <sub>day</sub> 00 : <sub>hr</sub> 00 : <sub>min</sub> 00 <sub>sec</sub></h1>
+            </div>
+        </div>
+    </div>
+    <p></p>
+    <script src="app.js "></script>
+</body>
+
+</html>
